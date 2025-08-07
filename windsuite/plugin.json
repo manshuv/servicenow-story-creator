@@ -4,6 +4,10 @@
   "version": "0.1.0",
   "description": "Publish Markdown user stories to ServiceNow rm_story directly from Windsurf.",
   "author": "Manshu Verma",
+  "icons": {
+    "128": "assets/icon-128.svg",
+    "512": "assets/icon-512.svg"
+  },
   "permissions": ["network", "filesystem"],
   "settings": {
     "fields": [

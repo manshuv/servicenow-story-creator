@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="64" fill="url(#g)"/>
+  <!-- Document icon -->
+  <rect x="116" y="96" width="280" height="320" rx="16" fill="#ffffff" opacity="0.95"/>
+  <rect x="140" y="140" width="232" height="16" rx="8" fill="#0ea5e9"/>
+  <rect x="140" y="180" width="232" height="12" rx="6" fill="#94a3b8"/>
+  <rect x="140" y="206" width="232" height="12" rx="6" fill="#94a3b8"/>
+  <rect x="140" y="232" width="200" height="12" rx="6" fill="#94a3b8"/>
+  <!-- Check list bullets for acceptance criteria -->
+  <circle cx="156" cy="292" r="8" fill="#22c55e"/>
+  <rect x="176" y="284" width="196" height="12" rx="6" fill="#64748b"/>
+  <circle cx="156" cy="324" r="8" fill="#22c55e"/>
+  <rect x="176" y="316" width="196" height="12" rx="6" fill="#64748b"/>
+  <circle cx="156" cy="356" r="8" fill="#22c55e"/>
+  <rect x="176" y="348" width="180" height="12" rx="6" fill="#64748b"/>
+  <!-- SN initials badge -->
+  <circle cx="416" cy="416" r="56" fill="#0ea5e9"/>
+  <text x="416" y="424" font-size="36" font-family="Arial, Helvetica, sans-serif" font-weight="bold" text-anchor="middle" fill="#ffffff">SN</text>
+</svg>
