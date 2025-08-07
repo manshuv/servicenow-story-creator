@@ -1,0 +1,47 @@
+{
+  "name": "ServiceNow Story Publisher",
+  "id": "servicenow-story-publisher",
+  "version": "0.1.0",
+  "description": "Publish Markdown user stories to ServiceNow rm_story directly from Windsurf.",
+  "author": "Manshu Verma",
+  "permissions": ["network", "filesystem"],
+  "settings": {
+    "fields": [
+      {
+        "key": "sn_instance",
+        "label": "ServiceNow Instance",
+        "type": "string",
+        "placeholder": "https://yourinstance.service-now.com",
+        "required": true
+      },
+      {
+        "key": "auth_method",
+        "label": "Auth Method",
+        "type": "select",
+        "options": ["basic"],
+        "default": "basic"
+      },
+      {
+        "key": "send_as_html",
+        "label": "Send Description and Acceptance Criteria as HTML",
+        "type": "boolean",
+        "default": true
+      }
+    ],
+    "secrets": [
+      { "key": "sn_username", "label": "ServiceNow Username" },
+      { "key": "sn_password", "label": "ServiceNow Password", "hidden": true }
+    ]
+  },
+  "commands": [
+    {
+      "id": "publish_story_from_markdown",
+      "title": "Publish Story to ServiceNow",
+      "description": "Publish the current Markdown file to rm_story",
+      "inputs": [
+        { "key": "filePath", "type": "string", "source": "activeDocumentPath", "required": true },
+        { "key": "updateIfExists", "type": "boolean", "default": true }
+      ]
+    }
+  ]
+}
