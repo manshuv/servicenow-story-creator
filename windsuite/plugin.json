@@ -1,7 +1,7 @@
 {
   "name": "ServiceNow Story Publisher",
   "id": "servicenow-story-publisher",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Publish Markdown user stories to ServiceNow rm_story directly from Windsurf.",
   "author": "Manshu Verma",
   "icons": {

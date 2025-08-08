@@ -60,8 +60,9 @@ Support
 Changelog
 - 0.1.0: Initial release (HTML by default, Description + Acceptance Criteria mapping, idempotent updates)
 
-Screenshots / media (suggested)
-- Screenshot: Settings panel
-- Screenshot: Command palette invocation
-- Screenshot: Success toast with record link
-- GIF: Publishing flow
+Screenshots / media
+- Settings panel: assets/screenshots/screenshot-settings.svg
+- Command palette: assets/screenshots/screenshot-command.svg
+- Publishing flow (GIF placeholder): assets/screenshots/publish-flow.svg
+
+Tip: Replace the SVG placeholders with actual PNGs/GIF recorded from your environment before store submission.
